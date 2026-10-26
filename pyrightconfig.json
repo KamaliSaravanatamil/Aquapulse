@@ -1,0 +1,15 @@
+{
+  "include": ["aquapulse_backend", "iot_dashboard/lib"],
+  "exclude": ["**/node_modules", "**/build", "**/.git", "**/__pycache__"],
+  "typeCheckingMode": "basic",
+  "reportMissingImports": false,
+  "reportOptionalMemberAccess": "warning",
+  "reportOptionalOperand": "warning",
+  "reportOptionalCallOperand": "warning",
+  "reportOptionalIterable": "warning",
+  "reportOptionalContextManager": "warning",
+  "reportOptionalSubscript": "warning",
+  "reportCallIssue": "basic",
+  "python.analysis.stubPath": "",
+  "pythonVersion": "3.10"
+}
